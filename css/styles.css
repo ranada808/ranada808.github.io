@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+	width: 100%;
+	height: auto;
+	max-height: 150px;
+	min-width: 100px;
+	min-height: 100px;
+	/* [disabled]max-width: 40px; */
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+p1 {
+	font-size: 25px;
+	/* [disabled]text-align: justify; */
+}
+
+
+#members {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 1100px;
+	border-collapse: collapse;
+}
+
+#members td, #customers th {
+	color: Black;
+	border: 1px solid #98bf21;
+	padding: 3px 7px 2px 7px;
+}
+
+#members th {
+	font-size: 20px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #A7C942;
+	color: #ffffff;
+}
+
+#members tr.alt td {
+    color: Black;
+    background-color: #EAF2D3;
+}
+#rotating-item-wrapper {
+	position: relative;
+	width: 1115px;
+	height: 466px;
+}
+#rotating-item-wrapper-s {
+	position: relative;
+	width: 500px;
+	height: 450px;
+}
+.rotating-item {
+	display: none;
+	position: absolute;
+}
+.rotating-item-s {
+	display: none;
+	/* [disabled]position: absolute; */
+}
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/* [disabled]font-size: 0; */
+	color: #333;
+	/* [disabled]text-align: center; */
+	background-size: cover;
+	background-color: #8C8C8C;
+}
+
+
+    #container {
+	background-color: #FFF;
+	width: 1125px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	text-align: left;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-y;
+	border-radius: 40px 40px 10px 10px;
+	height: 1000px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+header {
+	height: 160px;
+	z-index: 999;
+	background-color: #65675F;
+	background-repeat: no-repeat;
+	background-position: 1020px center;
+	/* [disabled]border-bottom-left-radius: 40px; */
+	/* [disabled]border-bottom-right-radius: 40px; */
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	background-size: contain;
+	position: static;
+}
+nav {
+	background-color: #F4093C;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 36px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #060;
+	color: #FFF;
+	font-size: small;
+}
+
+
+header img {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+ 
+    #main {
+	float: left;
+	height: 750px;
+	position: static;
+}
+    sidebar {
+	width: 300px;
+	background-color: #DBEBD0;
+	font-size: x-small;
+	/* [disabled]clear: right; */
+	float: right;
+	/* [disabled]margin-right: 500px; */
+	position: absolute;
+}
+    #main p {
+	/* [disabled]margin-top: 0px; */
+	font-size: 28px;
+	float: left;
+	position: absolute;
+	margin-right: 5px;
+	margin-left: 725px;
+	text-align: left;
+}
+    #main h1 {
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+    #GlobalNav {
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 250px;
+	height: 50px;
+	z-index: 1;
+	text-align: center;
+	left: 75%;
+	top: 15%;
+	font-size: xx-large;
+	text-shadow: 1px 1px #000000;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+    .headline {
+	color: #1c94c4;
+	font-weight: bold;
+	font-size: 33px;
+	margin-bottom: -2px;
+	text-shadow: 1px 1px 1px #000000;
+	text-align: left;
+}
+ 
+.et_pb_more_button {
+	text-decoration: underline;
+
+
+
+
+}
+#Troy {
+	float: left;
+
+}
+.clearfix .et_pb_contact_message.input {
+	width: 800px;
+	height: 150px;
+}
+.clearfix .et_pb_contact_form_label {
+	float: left;
+	/* [disabled]clear: right; */
+	text-align: left;
+}
+.et_pb_contact_left .clearfix .input.et_pb_contact_name {
+	float: left;
+}
+.et_pb_contact_left .clearfix .input.et_pb_contact_email {
+	width: 527px;
+}
+#FrankStaff {
+	margin-left: 400px;
+
+}
+#container #main #Tabs1 {
+	/* [disabled]-webkit-box-sizing: content-box; */
+	/* [disabled]-moz-box-sizing: content-box; */
+	/* [disabled]box-sizing: content-box; */
+	background-repeat: repeat;
+	background-attachment: scroll;
+	/* [disabled]overflow-x: scroll; */
+	/* [disabled]overflow-y: scroll; */
+}
+#footer {
+	background-color: #F4093C;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	/* [disabled]border-color: #D3179D; */
+	/* [disabled]border-style: dotted; */
+	/* [disabled]border-width: medium; */
+}

@@ -1,0 +1,31 @@
+/*! jQuery UI - v1.10.4 - 2014-04-02
+* http://jqueryui.com
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-tabs{
+	/* [disabled]position:relative; */
+	padding: .2em;
+	width: 1115px;
+}
+
+
+}
+.ui-tabs .ui-tabs-nav{
+	margin: 0;
+	padding: .2em .2em 0;
+	/* [disabled]width: 1115px; */
+}.ui-tabs .ui-tabs-nav li{list-style:none;float:left;position:relative;top:0;margin:1px .2em 0 0;border-bottom-width:0;padding:0;white-space:nowrap}.ui-tabs .ui-tabs-nav .ui-tabs-anchor{float:left;padding:.5em 1em;text-decoration:none}.ui-tabs .ui-tabs-nav li.ui-tabs-active{margin-bottom:-1px;padding-bottom:1px}.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor{cursor:text}.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{cursor:pointer}.ui-tabs .ui-tabs-panel{
+	/* [disabled]display: inherit; */
+	border-width: 0;
+	/* [disabled]padding: 1em 1.4em; */
+	background-image: none;
+	height: 700px;
+	width: 1115px;
+	position: absolute;
+	background-repeat: repeat;
+	/* [disabled]-webkit-box-sizing: inherit; */
+	/* [disabled]-moz-box-sizing: inherit; */
+	/* [disabled]box-sizing: inherit; */
+	max-height: 700px;
+	max-width: 1115px;
+}
