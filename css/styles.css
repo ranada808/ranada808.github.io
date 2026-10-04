@@ -93,8 +93,6 @@ body {
 	margin-left: auto;
 	position: relative;
 	text-align: left;
-	background-image: url(images/bg.gif);
-	background-repeat: repeat-y;
 	border-radius: 40px 40px 10px 10px;
 	height: 1000px;
 	-webkit-box-sizing: border-box;
