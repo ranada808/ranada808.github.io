@@ -1,0 +1,8 @@
+# Keep the website source available for development while withdrawing it from Pages.
+# Only the offline response and crawler instructions are published.
+theme: null
+include:
+  - 404.html
+  - robots.txt
+exclude:
+  - "*"
